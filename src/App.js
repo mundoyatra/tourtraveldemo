@@ -1,6 +1,6 @@
 import React from "react";
 import "@/App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { Toaster } from "./components/ui/sonner";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -12,13 +12,13 @@ import Privacy from "./pages/Privacy";
 
 function App() {
   const basename =
-    process.env.NODE_ENV === "production"
-      ? "/mundoyatranew"
-      : "/";
+  process.env.NODE_ENV === "production"
+    ? "/tourtraveldemo"
+    : "/";
 
   return (
     <div className="App">
-      <BrowserRouter basename={basename}>
+      <HashRouter basename={basename}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -28,7 +28,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy" element={<Privacy />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <Toaster position="top-right" richColors />
     </div>
   );
