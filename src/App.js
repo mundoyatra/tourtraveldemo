@@ -11,11 +11,9 @@ import Contact from "./pages/Contact";
 import Privacy from "./pages/Privacy";
 
 function App() {
-  const isProd = process.env.NODE_ENV === "production";
-
   return (
     <div className="App">
-      <BrowserRouter basename={isProd ? "/tourtraveldemo" : "/"}>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

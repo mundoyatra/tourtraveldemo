@@ -99,7 +99,7 @@ const Privacy = () => {
                 <div className="bg-blue-50 rounded-lg p-6">
                   <p className="text-gray-700">Email: info@mundoyatra.com</p>
                   <p className="text-gray-700">Phone: +91-9354262859</p>
-                  <p className="text-gray-700">Address: Shop No. 12, Travel Plaza, MG Road, Bangalore - 560001, Karnataka, India</p>
+                  <p className="text-gray-700">Address: 202 F/F Uttam nagar, Nawada Back Side, Sainik Nagar, Delhi, 110059</p>
                 </div>
               </div>
 

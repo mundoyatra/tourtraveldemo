@@ -45,8 +45,8 @@ export const services = [
   },
   {
     id: 7,
-    title: 'Cab & Airport Transfers',
-    description: 'Comfortable and safe transportation services. Airport pickups, drops, and local sightseeing.',
+    title: 'Cab & Transportation Services',
+    description: 'Comfortable and safe transportation services. Airport pickups, drops, and local sightseeing, Intercity travel, Luxury Car Rentals.',
     icon: 'car'
   },
   {
@@ -59,6 +59,18 @@ export const services = [
     id: 9,
     title: 'Foreign Language Guides',
     description: 'Professional tour guides fluent in multiple languages for your India trip.',
+    icon: 'languages'
+  },
+  {
+    id: 10,
+    title: 'Translation & Interpretation',
+    description: 'Mundo Yatra provides professional translation and interpretation services for foreign companies, exhibitors, and delegations visiting India.',
+    icon: 'languages'
+  },
+  {
+    id: 11,
+    title: 'Inbound Tourism',
+    description: 'We are a reliable inbound tour operator in India offering customized tours for foreign tourists. We specialize in tailor-made India journeys for international travelers seeking comfort, cultural depth, and professional support. From itinerary design to on-ground coordination, we ensure a smooth and memorable experience.',
     icon: 'languages'
   }
 ];
@@ -362,7 +374,7 @@ export const contactInfo = {
   phone: '+91-9354262859',
   email: 'info@mundoyatra.com',
   whatsapp: '+919354262859',
-  address: 'Shop No. 12, Travel Plaza, MG Road, Bangalore - 560001, Karnataka, India',
+  address: '202 F/F Uttam nagar, Nawada Back Side, Sainik Nagar, Delhi, 110059',
   hours: 'Mon - Sat: 9:00 AM - 7:00 PM | Sun: 10:00 AM - 5:00 PM'
 };
 

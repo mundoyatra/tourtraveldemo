@@ -1814,10 +1814,10 @@ const babelMetadataPlugin = ({ types: t }) => {
             [
               "Routes",
               "Switch",
-              "HashRouter",
+              "BrowserRouter",
               "Router",
               "MemoryRouter",
-              "HashRouter",
+              "BrowserRouter",
             ].includes(parentName) ||
             RADIX_ROOTS.has(parentName)
           ) {
