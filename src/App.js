@@ -13,7 +13,7 @@ import Privacy from "./pages/Privacy";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/tourtraveldemo">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
