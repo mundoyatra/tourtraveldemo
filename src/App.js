@@ -9,6 +9,9 @@ import DomesticPackages from "./pages/DomesticPackages";
 import InternationalPackages from "./pages/InternationalPackages";
 import Contact from "./pages/Contact";
 import Privacy from "./pages/Privacy";
+import BlogCard from "./components/BlogCard";
+import BlogDetails from "./pages/BlogDetails";
+
 
 function App() {
   return (
@@ -22,6 +25,8 @@ function App() {
           <Route path="/international-packages" element={<InternationalPackages />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy" element={<Privacy />} />
+          <Route path="/blogs" element={<BlogCard />} />
+        <Route path="/blogs/:slug" element={<BlogDetails />} />
         </Routes>
       </BrowserRouter>
       <Toaster position="top-right" richColors />

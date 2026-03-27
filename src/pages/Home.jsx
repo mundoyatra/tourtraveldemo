@@ -17,6 +17,8 @@ import {
   whyChooseUs,
   aboutContent
 } from '../data/mock';
+import FAQCard from '../components/FAQCard';
+import BlogCard from "../components/BlogCard";
 
 const iconMap = {
   'badge-indian-rupee': 'BadgeIndianRupee',
@@ -225,6 +227,12 @@ const Home = () => {
       <div id="lead-form-section">
         <LeadForm />
       </div>
+
+      {/* FAQ Section */}
+      <FAQCard />
+
+      {/* Blog Section */}
+      <BlogCard />
 
       <Footer />
 
